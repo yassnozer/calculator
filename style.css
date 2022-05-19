@@ -1,0 +1,35 @@
+*{font-family: 'Fira Sans', sans-serif;}
+#container{
+    max-width: 400px;
+    margin:1vh auto 0 auto;
+    background: #dfe4ea;
+    border:1px solid #000;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+#display{
+    background: #fff;
+    border: 1px solid #000;
+    text-align:right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+#buttonat{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.button{
+    border:0.5px solid #000;
+    line-height: 100px;
+    text-align: center;
+    font-size:25px;
+    cursor: pointer;
+}
+.button:hover{
+   background: #eccc68
+}
+#equal{background: #f1c40f;}
